@@ -1,0 +1,14 @@
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        google()
+        mavenCentral()
+        jcenter() // Warning: this repository is going to shut down soon
+        maven{
+            url "https://dl.bintray.com/infideap2/Drawer-Behavior"
+        }
+        maven { url 'https://jitpack.io' }
+    }
+}
+rootProject.name = "AppPointers"
+include ':app'
